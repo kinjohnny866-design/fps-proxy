@@ -1,9 +1,15 @@
 {
   "name": "fps-proxy",
   "version": "1.0.0",
+  "description": "Proxy serwer dla fps.ms",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "express": "^4.18.2",
-    "http-proxy-middleware": "^2.0.6"
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
